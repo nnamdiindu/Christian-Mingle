@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Mingle - Login</title>
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Favicon Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/6e08c56539.js" crossorigin="anonymous"></script>
+
+  <!-- recaptcha Widget -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+
+  <!-- Navbar section  -->
+
+  <div class="container-fluid body">
+    <nav class="navbar navbar-light justify-content-between">
+      <a href="https://www.christianmingle.com/en-us/" class="navbar-brand logo  d-none d-md-block d-lg-block">
+        <img src="images/logo.png" max-width="40px" height="40px"></a>
+      <a class="sign-up-link  d-none d-md-block d-lg-block" href="https://www.christianmingle.com/en-us/app/register/1">Sign Up</a>
+    </nav>
+
+
+    <!-- Login Section -->
+    <div class="container login-div">
+      <form class="form-signin" action="/" method="post" autocomplete="off">
+        <img class="d-sm-block d-md-none d-lg-none christian-mingle-logo" src="images/christian-mingle-logo-new.png" alt="" max-width="40" height="40">
+
+        <button class="btn1 btn btn-md mb-4" type="button"><i class="fa-brands fa-facebook icon"></i>Sign in with Facebook</button>
+
+        <button class="btn2 btn btn-md mb-4" type="button"><i class="fa-brands fa-apple icon"></i>Sign in with Apple</button>
+
+        <p>or</p>
+
+        <input type="email" id="inputEmail" name="userEmail" class="text-muted form-control shadow-none" placeholder="Email" required>
+        <input type="password" id="inputPassword" name="userPassword" class="text-muted form-control shadow-none" placeholder="Password" required>
+
+        <div class="checkbox mb-3 g-recaptcha data-sitekey='your_site_key' captcha-div">
+          <input type="checkbox" value="remember-me" id="checkbox">
+          <label for="checkbox" class="captcha-label">I am a human</label>
+        </div>
+
+        <a class="d-block forget-password" href="#">Forgot Password</a>
+
+        <button class="w-100 btn btn-md btn-primary btn-login" type="submit">Login</button>
+      </form>
+    </div>
+
+
+  </div>
+
+  <!-- Footer Section -->
+
+  <div class="container footer-container d-none d-md-block d-lg-block d-xl-block">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column footer">
+            <li class="nav-item mb-2"><a href="https://about.christianmingle.com/en/about-us-en/" class="nav-link p-0 text-muted">About Us</a></li>
+            <li class="nav-item mb-2"><a href="https://support.christianmingle.com/hc/en" class="nav-link p-0 text-muted">Help</a></li>
+            <li class="nav-item mb-2"><a href="https://about.christianmingle.com/en/safety-en/" class="nav-link p-0 text-muted">Contact Us</a></li>
+            <li class="nav-item mb-2"><a href="https://believe.christianmingle.com/category/success-stories/" class="nav-link p-0 text-muted">Online Safety</a></li>
+            <li class="nav-item mb-2"><a href="https://believe.christianmingle.com/" class="nav-link p-0 text-muted">Believe</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <ul class="nav flex-column footer">
+            <li class="nav-item mb-2"><a href="http://www.spark.net/our-story/" class="nav-link p-0 text-muted">About Spark</a></li>
+            <li class="nav-item mb-2"><a href="http://www.spark.net/our-story/" class="nav-link p-0 text-muted">Networks</a></li>
+            <li class="nav-item mb-2"><a href="http://www.spark.net/our-portfolio/" class="nav-link p-0 text-muted">Spark Networks</a></li>
+            <li class="nav-item mb-2"><a href="http://www.spark.net/our-portfolio/" class="nav-link p-0 text-muted">Sites</a></li>
+            <li class="nav-item mb-2"><a href="https://about.christianmingle.com/en/affiliate-program-en/" class="nav-link p-0 text-muted">Affliate Program</a></li>
+            <li class="nav-item mb-2"><a href="https://investor.spark.net/investor-relations/home" class="nav-link p-0 text-muted">Investor Relations</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <ul class="nav flex-column footer">
+            <li class="nav-item mb-2"><a href="http://www.spark.net/intellectual-property/" class="nav-link p-0 text-muted">Our Intellectual</a></li>
+            <li class="nav-item mb-2"><a href="http://www.spark.net/intellectual-property/" class="nav-link p-0 text-muted">Property</a></li>
+            <li class="nav-item mb-2"><a href="http://www.spark.net/careers/careers-overview/" class="nav-link p-0 text-muted">Careers</a></li>
+            <li class="nav-item mb-2"><a href="https://about.christianmingle.com/en/legal-en/#privacystatement" class="nav-link p-0 text-muted">Privacy</a></li>
+            <li class="nav-item mb-2"><a href="https://about.christianmingle.com/en/legal-en/#termsofservice" class="nav-link p-0 text-muted">Terms of Service</a></li>
+            <li class="nav-item mb-2"><a href="https://about.christianmingle.com/en/legal-en/#cookiepolicy" class="nav-link p-0 text-muted">Cookie Policy</a></li>
+            <li class="nav-item mb-2"><a href="https://about.christianmingle.com/en/legal-en/our-commitment-to-accessibility/" class="nav-link p-0 text-muted">Accessibility</a></li>
+          </ul>
+        </div>
+
+        <div class="col-4 offset-1">
+          <div class="w-100 gap-2">
+            <p>
+              Copyright© 2022 Spark Networks USA, LLC. All rights reserved.
+              Spark Networks USA, LLC is a wholly-owned subsidiary of Spark Networks SE, a NYSE MKT Company (LOV)
+            </p>
+            <p>
+              SPARK NETWORKS USA, LLC DOES NOT CONDUCT BACKGROUND CHECKS ON THE MEMBERS OR SUBSCRIBERS OF THIS WEBSITE.
+              HOWEVER, THE SAFETY AND SECURITY OF OUR MEMBERS IS OUR TOP PRIORITY.
+              WE URGE ALL MEMBERS TO FOLLOW OUR ONLINE SAFETY TIPS.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="https://www.instagram.com/realchristianmingle"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="https://www.facebook.com/ChristianMingle"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com/christianmingle"><i class="fa-brands fa-twitter fa-2x"></i></a>
+      </nav>
+
+      <div style="text-align:center;">
+        <img class="christian-mingle-logo" src="images/christian-mingle-logo-new.png" alt="" max-width="25" height="25">
+      </div>
+
+    </footer>
+  </div>
+</body>
+
+</html>

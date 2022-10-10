@@ -1,0 +1,156 @@
+.body {
+  background-image: url(../images/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 550px) {
+  .body{
+    background: #ffffff no-repeat !important;
+  }
+}
+
+.sign-up-link {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+
+.christian-mingle-logo {
+  margin: 7% auto;
+}
+.logo {
+  padding-left: 20px;
+}
+
+.icon {
+  padding-right: 20px;
+}
+
+.login-div{
+  margin-bottom: 20px;
+}
+
+.captcha-label{
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.forget-password{
+  text-decoration: none;
+  margin: 20px auto 20px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 380px;
+  padding: 50px 3% 2%;
+  margin: 0 auto 50px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.captcha-div {
+  border: 1px solid grey;
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.footer-nav a {
+  color: grey;
+  margin: 10px;
+}
+
+
+.form-signin .checkbox {
+  font-weight: 400;
+  border: 1px solid #f5f5f5;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+    border-radius: 0;
+    padding: 7px 0;
+    outline: none;
+    margin: 0 1%;
+}
+
+.form-signin input[type="password"] {
+  border:none;
+  border-bottom: 1px solid #f5f5f5;
+  border-radius: 0;
+  padding: 7px 0;
+  outline: none;
+  margin: 30px 1% 0;
+}
+
+.form-signin input[type="email"]:focus{
+  border-bottom: 1px solid blue;
+}
+
+.form-signin input[type="password"]:focus{
+  border-bottom: 1px solid blue;
+}
+
+.form-signin input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.btn1, .btn2 {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 6px #666666;
+  -moz-box-shadow: 0px 1px 6px #666666;
+  box-shadow: 0px 1px 6px #666666;
+  font-family: Arial;
+  color: #000;
+  font-size: 12px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000 1px;
+  text-decoration: none;
+  width: 90%;
+}
+
+.btn1:hover {
+  color: #fff;
+  background-color: #3498db !important;
+  text-decoration: none;
+  border: none;
+}
+
+.btn2:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+  text-decoration: none;
+  border: none;
+}
+
+.footer-container {
+  font-style: oblique;
+  font-size: small;
+}
+
+.footer {
+  text-decoration: underline;
+}
